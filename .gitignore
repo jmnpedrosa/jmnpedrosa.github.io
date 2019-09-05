@@ -6,3 +6,6 @@ _site/
 
 # Sass
 .css.map
+
+# Vscode
+.vscode
