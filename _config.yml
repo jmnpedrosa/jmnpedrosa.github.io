@@ -1,2 +1,20 @@
 # Global configuration for Jekyll
 site.url: https://jmnpedrosa.github.io/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Jekyll SEO Tag configuration
+title: José Nunes Pedrosa
+description: Software Engineer, Science and Technology enthusiast.
+logo: images/avatar.jpg
+social:
+  name: José Nunes Pedrosa
+  links:
+    - https://www.facebook.com/jmnpedrosa
+    - https://www.linkedin.com/in/josenunespedrosa/
+    - https://github.com/jmnpedrosa
+
+# Jekyll Sitemap configuration
+url: https://jmnpedrosa.github.io/
