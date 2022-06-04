@@ -23,7 +23,14 @@
 /// @param {string} $keys Key(s).
 /// @return {string} Value.
 @function _palette($keys...) {
-	@return val($palette, $keys...);
+   @return val($palette, $keys...);
+}
+
+/// Gets a palette value.
+/// @param {string} $keys Key(s).
+/// @return {string} Value.
+@function _palette-dark($keys...) {
+	@return val($palette-dark, $keys...);
 }
 
 /// Gets a size value.

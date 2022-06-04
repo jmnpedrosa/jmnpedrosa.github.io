@@ -2,11 +2,13 @@
 <div id="menu">
     <nav>
       <a href="/" {% if page.url == "/" %} class="selected" {% endif %}>
-        HOME
+        Home
       </a>
        - 
       <a href="/about.html" {% if page.url == "/about.html" %} class="selected" {% endif %}>
-        ABOUT
+        About
       </a>
+      - 
+      <a id="theme-toggle" onclick="modeSwitcher()"></a>
     </nav>
 </div>

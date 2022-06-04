@@ -54,5 +54,42 @@
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(255,255,255,0.5),
 			border2-bg:		rgba(255,255,255,0.2)
-		)
+		),
+
+		menu-selected: #000
+	);
+
+	$palette-dark: (
+		bg:					#000,
+		fg:					#5d5d5d,
+		fg-bold:			#878787,
+		fg-light:			#4d4d4d,
+		border:				#101010,
+		border-bg:			#080808,
+		border2:			#202020,
+		border2-bg:			#181818,
+
+		accent1: (
+			bg:				#49bf9d,
+			fg:				mix(#49bf9d, #000000, 25%),
+			fg-bold:		#000000,
+			fg-light:		mix(#49bf9d, #000000, 40%),
+			border:			rgba(255,255,255,0.25),
+			border-bg:		rgba(255,255,255,0.075),
+			border2:		rgba(255,255,255,0.5),
+			border2-bg:		rgba(255,255,255,0.2)
+		),
+
+		accent2: (
+			bg:				#1f1815,
+			fg:				rgba(255,255,255,0.5),
+			fg-bold:		#ffffff,
+			fg-light:		rgba(255,255,255,0.4),
+			border:			rgba(255,255,255,0.25),
+			border-bg:		rgba(255,255,255,0.075),
+			border2:		rgba(255,255,255,0.5),
+			border2-bg:		rgba(255,255,255,0.2)
+		),
+
+		menu-selected: #FFF
 	);
